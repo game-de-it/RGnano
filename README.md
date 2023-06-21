@@ -5,7 +5,7 @@
 
 ## ●手順  
   
-1. guihubから exclude_clocks　ファイルをダウンロードします  
+1. guihubから exclude_clocks　ファイルをダウンロードします(拡張子に.txtがついてしまう場合は、ダウンロード後に .txtを削除してください)  
 2. PCとRG nanoをUSBケーブルで接続し、本体側面にある電源ボタンを1回押して「MOUNT USB」を選択して実行します  
   ![s1](/asset/IMG_2218.jpeg)
 
