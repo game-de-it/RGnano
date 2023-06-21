@@ -23,7 +23,7 @@
 4.「Anbernic」　フォルダ内に　exclude_clocks　ファイルをコピーします  
   ![s2](/asset/sc1.png)  
  
-6. RG nanoで「EJECT USB」　を実行してPCから切断して、RGnanoをシャットダウンしてからもう一度起動させます
+6. RG nanoで「EJECT USB」　を実行してPCから切断して、RG nanoをシャットダウンしてからもう一度起動させます
   ![s3](/asset/IMG_2219.jpeg)
 
 7. RG nanoが起動したらLRボタンを押して 「applications」　から 「Explorer」　を起動します
