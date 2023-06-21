@@ -6,20 +6,23 @@
 ## ●手順  
   
 1. guihubから exclude_clocks　ファイルをダウンロードします  
-(拡張子に.txtがついてしまう場合は、ダウンロード後に .txtを削除してください)  
-2. PCとRG nanoをUSBケーブルで接続し、本体側面にある電源ボタンを1回押して「MOUNT USB」を選択して実行します  
+(拡張子に.txtがついてしまう場合は、ダウンロード後に .txtを削除してください)
+  ![s2](/asset/sc2.png)
+  ![s2](/asset/sc3.png)
+
+3. PCとRG nanoをUSBケーブルで接続し、本体側面にある電源ボタンを1回押して「MOUNT USB」を選択して実行します  
   ![s1](/asset/IMG_2218.jpeg)
 
-3. PCからRG nanoのUSBドライブを開いて「Anbernic」フォルダ内に　exclude_clocks　ファイルをコピーします  
+4. PCからRG nanoのUSBドライブを開いて「Anbernic」フォルダ内に　exclude_clocks　ファイルをコピーします  
   ![s2](/asset/sc1.png)
 
-4. RG nanoで「EJECT USB」を実行してPCから切断します
+5. RG nanoで「EJECT USB」を実行してPCから切断します
   ![s3](/asset/IMG_2219.jpeg)
 
-5. 電源ボタンを1回押してメインメニューに戻り、LRボタンを押して「applications」から「Explorer」を起動します
+6. 電源ボタンを1回押してメインメニューに戻り、LRボタンを押して「applications」から「Explorer」を起動します
   ![s4](/asset/IMG_2220.jpeg)
 
-6. 「Anbernic」フォルダでAボタン押します
+7. 「Anbernic」フォルダでAボタン押します
   ![s5](/asset/IMG_2221.jpeg)
 
 7.「exclude_clocks」ファイルを選択してAボタンを押し、画面が戻ったらスタートボタンを何回か押してメインメニューに戻ります
