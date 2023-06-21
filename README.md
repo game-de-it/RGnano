@@ -37,4 +37,9 @@
   
 10. RG nanoをシャットダウンしたら作業は完了です
 
-以上
+以上  
+
+```
+Special thanks - debugger
+[ Twitter : ぱりぱりうめ @paripariume_PPU ]
+```
