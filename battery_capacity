@@ -1,9 +1,21 @@
 #!/bin/ash
 
 if [ ! -e /usr/local/sbin/system_stats_org ]; then
-mv /usr/local/sbin/system_stats /usr/local/sbin/system_stats_org
-cp /mnt/Anbernic/system_stats /usr/local/sbin/system_stats
+  if [ -d /mnt/FunKey ];then
+    mount -o rw,remount /dev/root /
+    mv /usr/local/sbin/system_stats /usr/local/sbin/system_stats_org
+    cp /mnt/FunKey/system_stats /usr/local/sbin/system_stats
+    mount -o ro,remount /dev/root /
+  elif [ -d /mnt/Anbernic ]; then
+    mv /usr/local/sbin/system_stats /usr/local/sbin/system_stats_org
+    cp /mnt/Anbernic/system_stats /usr/local/sbin/system_stats
+  fi
 else
-cp /mnt/Anbernic/system_stats /usr/local/sbin/system_stats
+  if [ -d /mnt/FunKey ];then
+    mount -o rw,remount /dev/root /
+    cp /mnt/FunKey/system_stats /usr/local/sbin/system_stats
+    mount -o ro,remount /dev/root /
+  elif [ -d /mnt/Anbernic ];then
+    cp /mnt/Anbernic/system_stats /usr/local/sbin/system_stats
+  fi
 fi
-
