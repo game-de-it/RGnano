@@ -43,4 +43,5 @@
 ```
 Special thanks - debugger
 [ Twitter : ぱりぱりうめ @paripariume_PPU ]
+[ Twitter : じゅんたろう @GameboyJuntaro ]
 ```
