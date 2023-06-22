@@ -8,7 +8,7 @@
 
 ## ●手順  
   
-1. guihubから 「exclude_clocks」　と　「turnback_clocks」 ファイルをダウンロードします  
+1. ここのguihubのTOPページから 「exclude_clocks」　と　「turnback_clocks」 ファイルをダウンロードします  
 (拡張子に.txtがついてしまう場合は、ダウンロード後に .txtを削除してください)
   ![s2](/asset/sc2.png)
   ![s2](/asset/sc3.png)
