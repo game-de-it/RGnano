@@ -1,3 +1,4 @@
 #!/bin/ash
-[ -e /usr/bin/time ];
+if [ -e /usr/bin/time ]; then
 mv /usr/bin/time /usr/bin/time_org
+fi
