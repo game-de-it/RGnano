@@ -1,0 +1,13 @@
+#!/bin/ash
+
+if [ ! -e /usr/local/sbin/snapshot_org ]; then
+  if [ -d /mnt/FunKey ];then
+    mount -o rw,remount /dev/root /
+    mv /usr/local/sbin/snapshot /usr/local/sbin/snapshot_org
+    cp /mnt/FunKey/snapshot /usr/local/sbin/snapshot
+    mount -o ro,remount /dev/root /
+  elif [ -d /mnt/Anbernic ]; then
+    mv /usr/local/sbin/snapshot /usr/local/sbin/snapshot_org
+    cp /mnt/Anbernic/snapshot /usr/local/sbin/snapshot
+  fi
+fi
