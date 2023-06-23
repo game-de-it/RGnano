@@ -19,8 +19,9 @@ touch "${LOCK_FILE}"
 
 # Increment name and save snapshot
 SNAPSHOT_EXT=PNG
+EXT=` ps -efHwww | grep opkrun| grep -v grep |awk -F. '{ print $NF }'`
 SNAPSHOT_DIR=`ps -efH | grep opkrun| grep -v grep |awk -F/ '{ print "/"$5"/"$6 }'`
-snapshot_file="`ps -efH | grep opkrun| grep -v grep |awk -F/ '{ print $NF }'|awk -F. '{ print $1}'`.png"
+snapshot_file="`ps -efH | grep opkrun| grep -v grep |awk -F/ '{ print $NF }'|awk -F/ '{ print $NF }'|awk -F.${EXT} '{ print $1 }'`.png"
 notif set 2 "   SCREENSHOT ${snapshot_file}"
 fbgrab "${SNAPSHOT_DIR}/${snapshot_file}" >/dev/null 2>&1 &
 
