@@ -40,7 +40,7 @@ FunkeyOSの場合は 「FunKey」 フォルダでAボタン押します
 8. 「snapshot2thumbnail」 ファイルを選択してAボタンを押します  
 **__※注意※「snapshot」 ファイルは実行しないでください__**  
 画面が戻ったらスタートボタンを何回か押してメインメニューに戻ります  
-  <img src="/asset/IMG_2242.JPG" width="800">  
+  <img src="/asset/IMG_2254.jpg" width="800">  
   
 9. RG nanoをシャットダウンします  
 
