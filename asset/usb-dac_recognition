@@ -1,0 +1,2 @@
+#!/bin/sh 
+sed -i 's/SLEEP_SECS=1/SLEEP_SECS=2/g' /usr/local/sbin/audio
