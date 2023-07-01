@@ -9,7 +9,7 @@ AnbernicOSとFunkeyOSに対応
 
 ## ●手順  
   
-1. ここのguihubのTOPページから 「[set_start-A-shutdown](https://github.com/game-de-it/FunKeyOS-game_de_it/blob/main/set_start-A-shutdown)」と「[fkgpiod.conf](https://github.com/game-de-it/FunKeyOS-game_de_it/blob/main/fkgpiod.conf)」 ファイルをダウンロードします  
+1. 「[set_start-A-shutdown](https://github.com/game-de-it/FunKeyOS-game_de_it/blob/main/set_start-A-shutdown)」と「[fkgpiod.conf](https://github.com/game-de-it/FunKeyOS-game_de_it/blob/main/fkgpiod.conf)」 ファイルをダウンロードします  
 (拡張子に.txtがついてしまう場合は、ダウンロード後に .txtを削除してください)
   <img src="/asset/sc2.png" width="800">  
   <img src="/asset/sc3.png" width="800">  
