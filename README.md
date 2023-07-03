@@ -9,4 +9,5 @@
 ## 7.  [RG nano 「START+Aボタンでシャットダウン」するスクリプト](https://github.com/game-de-it/RGnano/blob/main/set_start-A-shutdown.md)  
 
 # ●外部リンク  
-[FunkeyOSのWiki](https://wiki.funkey-project.com/wiki/FunKey-OS)
+- [FunkeyOSのWiki](https://wiki.funkey-project.com/wiki/FunKey-OS)  
+- FunkeyOSベースのカスタムOS [DrUm78's custom OS for the FunKey S](https://github.com/DrUm78/FunKey-OS/releases)
