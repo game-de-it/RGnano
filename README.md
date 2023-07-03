@@ -7,3 +7,6 @@
 ## 5.  [RG nano FunKeyOSベースのカスタムファームウェアを改名してリリース！](https://github.com/game-de-it/FunKeyOS-game_de_it)
 ## 6.  [RG nano USB-DAC認識頻度を調整して全体的な負荷を下げるスクリプト](https://github.com/game-de-it/RGnano/blob/main/usb-dac_recognition.md)
 ## 7.  [RG nano 「START+Aボタンでシャットダウン」するスクリプト](https://github.com/game-de-it/RGnano/blob/main/set_start-A-shutdown.md)  
+
+# ●外部リンク  
+[FunkeyOSのWiki](https://wiki.funkey-project.com/wiki/FunKey-OS)
