@@ -11,3 +11,4 @@
 # ●外部リンク  
 - [FunkeyOSのWiki](https://wiki.funkey-project.com/wiki/FunKey-OS)  
 - FunkeyOSベースのカスタムOS [DrUm78's custom OS for the FunKey S](https://github.com/DrUm78/FunKey-OS/releases)
+- RG nanoで動作するkuranさん制作のSTG[TinySTG](https://github.com/kuran-kuran/TinySTG)
