@@ -1,0 +1,21 @@
+# Clean up
+!rm -rf sample_data sm64-funkey sm64*.opk FunKey-sdk-*.tar.gz sm64-funkey-1.1-funkey-s_jp.tar.gz
+# Update packages to prevent stale caches from causing package install failures
+!apt update
+# Get squashfs-tools to generate the OPK file
+!apt install squashfs-tools -yy
+# Get the Ubuntu 18.04 toolchain to build the FunKey S binary
+!wget https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.0.0/FunKey-sdk-2.0.0_Ubuntu1804.tar.gz
+# Install and rename the toolchain
+!tar -zxf FunKey-sdk-2.0.0_Ubuntu1804.tar.gz -C /opt
+!mv /opt/FunKey-sdk-2.0.0/ /opt/FunKey-sdk/
+# Get source jpanese version
+!wget https://github.com/game-de-it/RGnano/raw/main/asset/sm64-funkey-1.1-funkey-s_jp.tar.gz
+!tar zxvf sm64-funkey-1.1-funkey-s_jp.tar.gz
+!mv sm64-funkey-1.1-funkey-s sm64-funkey
+# Copy SM64 ROM file into the sm64-funkey folder
+!cp baserom.jp.z64 sm64-funkey/
+# Compile SM64 and build the OPK
+!cd sm64-funkey/ && make -j16 && ./build_opk.sh funkey-s
+# Move the resulting OPK up into the root folder
+!mv sm64-funkey/*.opk ./ && echo "Compilation successful, your OPK file is ready for download!"
